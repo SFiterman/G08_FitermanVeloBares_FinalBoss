@@ -24,5 +24,5 @@ def calcularPeso(self): #VIRTUAL HIJO
     auxCargo=0.5
    
    auxCargo = auxCargo*self.quality #asumimos que todos los cargos son del mismo peso por como esta presentado en el archivo csv
-   aux= self.draft - (self.crew* Ship.pesotripulacion + auxCargo)
+   aux= self.draft - (self.crew* Ship.pesoTripulacion + auxCargo)
    return aux

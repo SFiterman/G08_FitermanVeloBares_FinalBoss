@@ -1,5 +1,4 @@
 from Ship import Ship
-
 class Cruise(Ship):
  pesoPasajero= 2.25 #static
  def __init__(self, passengers, draft, crew):
