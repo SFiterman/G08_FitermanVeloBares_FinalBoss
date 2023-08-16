@@ -16,3 +16,4 @@ def test_Cargo_Menor20() -> None:
     cargoC= Cargo(10,1,50,9) #50-(9*1.5+3.5*10)=  1.7
     with pytest.raises(ValueError):
         cargoC.is_worth_it()
+    
