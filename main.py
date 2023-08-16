@@ -4,7 +4,7 @@ from src.Cargo import Cargo
 from src.Cruise import Cruise
 
 def main() -> None:
- print("Hola!!!!!!!")
+ #print("Hola!!!!!!!")
  
  barcos=[]
  cargos=[]
