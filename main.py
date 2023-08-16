@@ -35,8 +35,6 @@ def main() -> None:
         auxShip= barcos[i].is_worth_it()
       except Exception as e: 
         print(str(e))
-     
-        
 
   
 if __name__ == "__main__":
